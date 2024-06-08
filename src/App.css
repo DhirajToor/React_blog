@@ -1,8 +1,15 @@
+ 
 .App {
     font-family: Arial, sans-serif;
-    padding: 20px;
+    
 }
 
+.blogList{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
 .blog-post {
     padding: 20px;
     border: 1px solid #ccc;
@@ -24,6 +31,8 @@
     color: #999;
 }
 
-.content {
+.content { 
+    margin: 15px;
     font-size: 16px;
+     
 }
